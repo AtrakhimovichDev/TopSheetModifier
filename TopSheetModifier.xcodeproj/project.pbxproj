@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0538B552D4CD57100841F9B /* TopSheetModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = B0538B542D4CD57100841F9B /* TopSheetModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0538B5C2D4CD5AF00841F9B /* TopSheetViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0538B512D4CD57100841F9B /* TopSheetModifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TopSheetModifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0538B542D4CD57100841F9B /* TopSheetModifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopSheetModifier.h; sourceTree = "<group>"; };
 		B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSheetViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -28,6 +26,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B028AD112D4FA22000304B19 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		B0538B472D4CD57100841F9B = {
 			isa = PBXGroup;
 			children = (
@@ -47,8 +53,7 @@
 		B0538B532D4CD57100841F9B /* TopSheetModifier */ = {
 			isa = PBXGroup;
 			children = (
-				B0538B542D4CD57100841F9B /* TopSheetModifier.h */,
-				B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */,
+				B028AD112D4FA22000304B19 /* Sources */,
 			);
 			path = TopSheetModifier;
 			sourceTree = "<group>";
@@ -60,7 +65,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0538B552D4CD57100841F9B /* TopSheetModifier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
