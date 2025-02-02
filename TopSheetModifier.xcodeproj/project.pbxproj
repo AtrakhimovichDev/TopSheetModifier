@@ -37,7 +37,7 @@
 		B0538B472D4CD57100841F9B = {
 			isa = PBXGroup;
 			children = (
-				B0538B532D4CD57100841F9B /* TopSheetModifier */,
+				B028AD112D4FA22000304B19 /* Sources */,
 				B0538B522D4CD57100841F9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,14 +48,6 @@
 				B0538B512D4CD57100841F9B /* TopSheetModifier.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B0538B532D4CD57100841F9B /* TopSheetModifier */ = {
-			isa = PBXGroup;
-			children = (
-				B028AD112D4FA22000304B19 /* Sources */,
-			);
-			path = TopSheetModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
