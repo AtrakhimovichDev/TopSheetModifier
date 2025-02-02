@@ -7,7 +7,7 @@ A custom SwiftUI .topSheet view modifier with behaviour similar to the native .s
 ### Swift Package Manager
 
 In Xcode, select “File” → “Add Packages...”
-Enter (https://github.com/AtrakhimovichDev/TopSheetModifier.git)
+Enter https://github.com/AtrakhimovichDev/TopSheetModifier.git
 or you can add the following dependency to your Package.swift:
 ```swift
   dependencies: [
@@ -42,3 +42,6 @@ Modifier also has optional showIndicator parameter. Hide by default.
 
 https://github.com/user-attachments/assets/14d16be8-3338-44ba-9e90-5ffbe09ad47c
 
+## License
+
+This framework template is available as open source under the terms of the [MIT License](https://opensource.org/license/MIT).
