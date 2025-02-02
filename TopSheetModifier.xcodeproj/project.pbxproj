@@ -29,9 +29,17 @@
 		B028AD112D4FA22000304B19 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */,
+				B028AD122D4FA50800304B19 /* TopSheetModifier */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		B028AD122D4FA50800304B19 /* TopSheetModifier */ = {
+			isa = PBXGroup;
+			children = (
+				B0538B5B2D4CD5AF00841F9B /* TopSheetViewModifier.swift */,
+			);
+			path = TopSheetModifier;
 			sourceTree = "<group>";
 		};
 		B0538B472D4CD57100841F9B = {
