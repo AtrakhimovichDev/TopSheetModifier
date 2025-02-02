@@ -132,9 +132,9 @@ struct DragIndicator: View {
 }
 
 extension View {
-    func topSheet<Content: View>(isPresented: Binding<Bool>,
-                                 showIndicator: Bool = false,
-                                 @ViewBuilder content: @escaping () -> Content) -> some View {
+    public func topSheet<Content: View>(isPresented: Binding<Bool>,
+                                        showIndicator: Bool = false,
+                                        @ViewBuilder content: @escaping () -> Content) -> some View {
         self.modifier(TopSheetViewModifier(isPresented: isPresented,
                                            showIndicator: showIndicator,
                                            content: content))
