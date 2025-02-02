@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "TopSheetViewModifier",
+    name: "TopSheetModifier",
     platforms: [
         .iOS(.v16)
     ],
     products: [
         .library(
-            name: "TopSheetViewModifier",
-            targets: ["TopSheetViewModifier"]),
+            name: "TopSheetModifier",
+            targets: ["TopSheetModifier"]),
     ],
     targets: [
         .target(
-            name: "TopSheetViewModifier",
+            name: "TopSheetModifier",
             path: "Sources"),
     ]
 )
