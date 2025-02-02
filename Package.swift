@@ -8,12 +8,12 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "TopSheetViewModifier",
-            targets: ["TopSheetViewModifier"]),
+            name: "TopSheetModifier",
+            targets: ["TopSheetModifier"]),
     ],
     targets: [
         .target(
-            name: "TopSheetViewModifier",
+            name: "TopSheetModifier",
             path: "Sources"),
     ]
 )
