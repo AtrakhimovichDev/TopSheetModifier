@@ -39,7 +39,7 @@ public struct TopSheetViewModifier<InnerContent: View>: ViewModifier {
 
     private let maxDragDistance: CGFloat = 100
 
-    init(isPresented: Binding<Bool>,
+    public init(isPresented: Binding<Bool>,
          showIndicator: Bool,
          content: @escaping () -> InnerContent) {
         self._isPresented = isPresented
