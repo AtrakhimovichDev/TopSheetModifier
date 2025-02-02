@@ -73,14 +73,17 @@ public struct TopSheetViewModifier<InnerContent: View>: ViewModifier {
                 .zIndex(2)
                 .frame(maxWidth: .infinity)
                 .background(.white)
-                .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                .clipShape(.rect(topLeadingRadius: 0,
+                                 bottomLeadingRadius: 20,
+                                 bottomTrailingRadius: 20,
+                                 topTrailingRadius: 0))
                 .shadow(radius: 5)
                 .offset(y: min(dragOffset.height, 0))
                 .transition(.asymmetric(insertion: .move(edge: .top), removal: .move(edge: .top)))
-                .animation(.bouncy, value: dragOffset)
             }
         }
         .ignoresSafeArea(edges: .top)
+        .animation(.snappy, value: dragOffset)
         .animation(.spring, value: isPresented)
     }
 
