@@ -13,7 +13,6 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "TopSheetModifier",
-            path: "Sources"),
+            name: "TopSheetModifier"),
     ]
 )
