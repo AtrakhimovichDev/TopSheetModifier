@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "TopSheetViewModifier", // Замените на название вашего фреймворка
+    name: "TopSheetViewModifier",
     platforms: [
-        .iOS(.v16)      // Минимальная версия iOS
+        .iOS(.v16)
     ],
     products: [
         .library(
-            name: "TopSheetViewModifier", // Замените на название вашего фреймворка
-            targets: ["TopSheetViewModifier"]), // Замените на название вашего фреймворка
+            name: "TopSheetViewModifier",
+            targets: ["TopSheetViewModifier"]),
     ],
     targets: [
         .target(
-            name: "TopSheetViewModifier", // Замените на название вашего фреймворка
-            path: "TopSheetViewModifier"),   // Путь к папке с исходными файлами
+            name: "TopSheetViewModifier",
+            path: "Sources"),
     ]
 )
