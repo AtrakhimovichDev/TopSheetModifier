@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "TopSheetModifier",
+    name: "TopSheetViewModifier",
     platforms: [
         .iOS(.v16)
     ],
