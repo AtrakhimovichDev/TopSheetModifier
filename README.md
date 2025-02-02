@@ -40,3 +40,5 @@ Modifier also has optional showIndicator parameter. Hide by default.
 
 ## Demo
 
+https://github.com/user-attachments/assets/14d16be8-3338-44ba-9e90-5ffbe09ad47c
+
