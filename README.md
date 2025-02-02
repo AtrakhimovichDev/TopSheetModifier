@@ -6,22 +6,22 @@ A custom SwiftUI .topSheet view modifier with behaviour similar to the native .s
 
 ### Swift Package Manager
 
-To install Lottie using Swift Package Manager you can follow the tutorial published by Apple using the URL for this repo with the current version:
-
 In Xcode, select “File” → “Add Packages...”
-Enter https://github.com/airbnb/lottie-spm.git
+Enter (https://github.com/AtrakhimovichDev/TopSheetModifier.git)
 or you can add the following dependency to your Package.swift:
-```
-
-swift
+```swift
   dependencies: [
-    .package(url: "https://github.com/your_username/MyAwesomeViewModifiers.git", from: "1.0.0"),
+    .package(url: "https://github.com/AtrakhimovichDev/TopSheetModifier.git", branch: "main"),
   ]
-
 ```
+
+## Manual
+
+Just copy TopSheetViewModifier.swift file to your project and use it.
+
 ## Usage
 
-```
+```swift
 import TopSheetModifier
 
 struct YourView: View {
