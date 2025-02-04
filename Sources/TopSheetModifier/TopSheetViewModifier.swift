@@ -61,13 +61,13 @@ public struct TopSheetViewModifier<InnerContent: View>: ViewModifier {
                 VStack(spacing: 0) {
                     Rectangle()
                         .fill(.white)
-                        .frame(height: min(dragOffset.height, maxDragDistance) / 4)
+                        .frame(height: min(dragOffset.height < 0 ? 0 : dragOffset.height, maxDragDistance) / 4)
                     self.content()
                         .padding(.top, 60)
                         .padding(.bottom, 5)
                     Rectangle()
                         .fill(.white)
-                        .frame(height: min(dragOffset.height, maxDragDistance) / 4)
+                        .frame(height: min(dragOffset.height < 0 ? 0 : dragOffset.height, maxDragDistance) / 4)
                     draggableView()
                 }
                 .zIndex(2)
